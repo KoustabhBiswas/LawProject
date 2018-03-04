@@ -1,0 +1,14 @@
+.side-nav::-webkit-scrollbar{
+	/* background-color: red;*/
+	width: 10px;
+
+}
+.side-nav::-webkit-scrollbar-track{
+	 color: red;
+
+}
+.side-nav::-webkit-scrollbar-thumb{
+	background-color: lightgrey;
+	outline: 1px solid ;
+
+}

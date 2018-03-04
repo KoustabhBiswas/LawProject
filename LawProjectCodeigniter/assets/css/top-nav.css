@@ -1,0 +1,56 @@
+.top-nav{
+	background-color:#86D920;
+	 margin-left: 135px; 
+	height: 50px;
+	box-shadow: 3px 3px 6px grey, 0px -1px 20px  grey; 
+	z-index: 1;
+  
+}
+.top-nav-body{
+	height: 40px;
+	border: 0px solid;
+}
+.top-nav-elements{
+	border: 0px solid;
+	 
+	top: 10px;
+}
+.top-nav-login{
+      float: right; 
+      color: white;
+      border: 0px solid;
+      top:7px;
+      font-size: 16px;
+      margin-right: 5%;
+      /*right: 10px;*/
+
+}	 
+  
+.top-nav-login:hover{
+	 color: #2974FF;
+	text-shadow: 2px 2px 4px lightgrey;
+
+}
+.top-nav-link{
+  border: 0px solid black;
+  position: relative;
+  margin-left: -17%;
+  /*margin-top: 5px;*/
+}
+.top-nav-link:hover{
+	color: #2974FF;
+ /* margin-top:7px;*/
+/*	text-shadow: 2px 2px 4px lightgrey;
+*/}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+   src: url('../font/glyphicons-halflings-regular.eot');
+    src: url( '../font/glyphicons-halflings-regular.eot?#iefix')
+       format('embedded-opentype'), 
+       url('../font/glyphicons-halflings-regular.woff') 
+       format('woff'), 
+       url('../font/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') 
+       format('svg'); 
+}

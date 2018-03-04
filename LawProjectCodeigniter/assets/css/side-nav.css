@@ -1,0 +1,64 @@
+body{
+	margin: 0%;
+	background: white;
+}
+ a:hover{
+	text-decoration: none;
+	/*color: blue;*/
+}
+a{
+	color: white;
+	 
+} 
+ 
+.side-nav{
+	background-color: #86D920;
+
+	width: 150px;
+	height: 100%;
+	margin-top: -1.5%;
+	position: fixed;
+	 
+	bottom: 0;
+	/*top: -200px;*/
+	left:0;
+	 box-shadow: 4px 4px 8px grey;   
+	z-index: 1;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.company-img{
+	 position: relative;
+}
+ .law-firm{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	font-size: 27px;
+	color: #00e600;
+	word-wrap: break-word;
+} 
+.side-nav-link{
+	/*color: White;*/
+	padding-right: 20px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 2%;
+	border: 0px solid;
+	filter: drop-shadow(4px 4px 6px grey);
+	-webkit-filter: drop-shadow(4px 4px 6px grey);
+	-moz-filter: drop-shadow(4px 4px 6px grey);
+	-o-filter: drop-shadow(4px 4px 6px grey);
+	-ms-filter: drop-shadow(4px 4px 6px grey);
+}
+.side-nav-link:hover{
+	filter: drop-shadow(6px 6px 8px grey);
+	-webkit-filter: drop-shadow(6px 6px 8px grey);
+	-moz-filter: drop-shadow(6px 6px 8px grey);
+	-o-filter: drop-shadow(6px 6px 8px grey);
+	-ms-filter: drop-shadow(6px 6px 8px grey);
+	color: #FD4D0C;
+}
