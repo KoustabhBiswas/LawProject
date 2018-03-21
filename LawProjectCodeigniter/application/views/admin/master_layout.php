@@ -16,8 +16,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="container-fluid">
-<?php $this->load->view('user/shared/sidenav'); ?>	
- <?php $this->load->view('user/shared/topnav'); ?>
+<?php $this->load->view('admin/shared/side-nav'); ?>	
+ <?php $this->load->view('admin/shared/top-nav'); ?>
  <?php $this->load->view($content); ?>
 </body>
 </html>

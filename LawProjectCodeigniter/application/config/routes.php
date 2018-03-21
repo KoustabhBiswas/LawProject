@@ -53,3 +53,14 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['admin'] = 'Welcome';
+
+/* Common Routing Starts*/
+$route['login'] = 'common/LoginController';
+$route['loginsubmit'] = 'common/LoginController/login';
+$route['register'] = 'common/LoginController/register';
+$route['logout'] = 'common/LoginController/logout';
+
+/* Common Routing Ends*/
+/* Admin Routing Starts*/
+$route['admin'] = 'admin/AdminHomeController';
+/* Admin Routing Ends*/

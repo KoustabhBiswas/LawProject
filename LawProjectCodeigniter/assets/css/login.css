@@ -1,0 +1,60 @@
+.login-body{
+	margin-left: 30%;
+	margin-top: 7%;
+	border: 1px solid #1aff1a;
+	border-radius: 7px;
+	box-shadow: 3px 3px 6px lightgrey, 0px -1px 10px lightgrey;
+}
+.dlf{
+	border:0px solid;
+	background-color: #1aff1a;
+}
+h3:first-child{
+	text-align: center;
+	font-family: Dancing Script;
+	color: white;
+}
+form{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+input::-webkit-placehoder{
+	font-family: Dancing Script;
+}
+
+
+.login-btn{
+	color: white;
+	background-color: #1aff1a;
+	box-shadow: 3px 3px 6px lightgrey, 0px -1px 10px lightgrey;
+	/*position: absolute;
+	margin-left: 150px;*/
+	 
+	margin-top: 3%;
+	transition: 2s;
+
+}
+
+.login-btn:hover{
+	color: white;
+	background-color:  #00091a;
+	box-shadow: 2px 2px 4px lightgrey, 0px -1px 10px lightgrey;
+
+}
+.register{
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+	filter: drop-shadow(2px 2px 4px grey);
+}
+.register:hover{
+	text-decoration: none;
+	filter: drop-shadow(3px 3px 6px grey);
+	color: #1aff1a;
+}
+@media only screen and (max-width: 600px){
+	h3:first-child{
+		font-size: 18px;
+	}
+	 
+}

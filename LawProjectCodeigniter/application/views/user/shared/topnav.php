@@ -13,21 +13,23 @@
 			<p>
 				<?php if ($this->session->userdata('username')) {
 	 					# code...
-					echo 'Welcome '.$this->session->userdata('username');
+					?>
+					
+					<a href="<?php echo base_url(); ?>logout"><?php echo $this->session->userdata('username'); ?></a>
 
-				}else{ ?>
-				<a href="<?php echo base_url('login') ?>" class="top-nav-link">
-					LogIn
-				</a>
-				<?php } ?>
-			</p>
+					<?php }else{ ?>
+					<a href="<?php echo base_url('login') ?>" class="top-nav-link">
+						LogIn
+					</a>
+					<?php } ?>
+				</p>
 
-		</div>
+			</div>
 
 
 
-	</div> 
+		</div> 
 
-</div>
+	</div>
 
 	 <!-- Top nav bar ends -->
