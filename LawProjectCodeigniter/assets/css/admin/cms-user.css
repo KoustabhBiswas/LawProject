@@ -1,0 +1,48 @@
+.edit_link_cms{
+	background-color:  #00ff00;
+	font-size: 12px;
+	 
+}
+.delete_link_cms{
+	background-color:  #ff3300;
+	font-size: 12px;
+}
+.table_div_user{
+	box-shadow: 3px 3px 6px lightgrey, 0px -1px 20px lightgrey;
+	border-radius: 7px;
+	top: 15px;
+}
+.add_form{
+    margin-left: 20%;
+}
+.add_btn{
+	margin-top: 15px;
+	background-color:  #00ff00;
+	color: white;
+	box-shadow: 3px 3px 6px lightgrey, 0px -1px 20px lightgrey;
+}
+.add_btn:hover{
+	background-color:  #00aaff;
+	color: white;
+	box-shadow: 2px 2px 4px lightgrey,0px -1px 10px lightgrey;
+	transition: 0.5s;
+
+}
+.add_submit_btn{
+	background-color:  #00ff00;
+	color: white;
+	box-shadow: 4px 4px 6px grey,1px -1px 20px lightgrey;
+}
+.add_submit_btn:hover{
+	background-color: #3399ff;
+	transition: 2s;
+}
+.cancel_btn{
+	background-color:  #ff3300;
+	color: white;
+	box-shadow: 4px 4px 6px grey,1px -1px 20px lightgrey;
+}
+.cancel_btn:hover{
+	background-color:  #ff0000;
+	color: white;
+}

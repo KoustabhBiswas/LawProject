@@ -56,11 +56,20 @@ class LoginController extends MY_Controller
 		if(count($validate) === 1){
 			if(password_verify($password,$validate->password)){
 				/* Validation By User Role */
+				$username = array(
+					'username' => $validate->firstname.$validate->lastname,
+
+					'role' => $validate->role
+				);
 				if($validate->role === 'User'){
-					$this->session->set_userdata('username',$validate->firstname.$validate->lastname);
+					
+					//$this->session->set_userdata('username',$validate->firstname.$validate->lastname);
+					$this->session->set_userdata($username);
 					return redirect('/');
 				}else{
-					$this->session->set_userdata('username',$validate->firstname.$validate->lastname);
+
+					$this->session->set_userdata($username);
+
 					return redirect('/admin');
 				}
 				/* Validation By User Role */
@@ -72,6 +81,7 @@ class LoginController extends MY_Controller
 	}
 	function logout(){
 		$this->session->unset_userdata('username');
+		$this->session->unset_userdata('role');
 		return redirect('/');
 	}
 

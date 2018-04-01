@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['admin'] = 'Welcome';
+ 
 
 /* Common Routing Starts*/
 $route['login'] = 'common/LoginController';
@@ -63,4 +63,7 @@ $route['logout'] = 'common/LoginController/logout';
 /* Common Routing Ends*/
 /* Admin Routing Starts*/
 $route['admin'] = 'admin/AdminHomeController';
+$route['admin/users'] = 'admin/ClientController';
+$route['admin/users/addUser'] = 'admin/ClientController/addUser';
+
 /* Admin Routing Ends*/

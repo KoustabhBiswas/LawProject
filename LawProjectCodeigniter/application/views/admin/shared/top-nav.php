@@ -11,11 +11,11 @@
 		<div class="col-md-4 col-sm-4 col-xs-4 top-nav-login">
 
 			<p>
-				<?php if ($this->session->userdata('username')) {
-	 					# code...
-					echo 'Welcome '.$this->session->userdata('username');
+				<?php if ($this->session->userdata('username')) {?>
+				
+				<a href="<?php echo base_url() ?>logout"><?php echo 'Welcome '.$this->session->userdata('username');?></a>
 
-				}else{ ?>
+				<?php }else{ ?>
 				<a href="<?php echo base_url('login') ?>" class="top-nav-link">
 					LogIn
 				</a>

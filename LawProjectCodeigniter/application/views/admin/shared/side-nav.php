@@ -1,8 +1,9 @@
 <!-- Side Nav Bar -->
+ 
 	<div class="side-nav" id="side-nav">
 		  
 
-		<a href="#">
+		<a href="<?php echo base_url(); ?>admin/users">
 			<div class="side-nav-link"> 
 			
 				   <span class="glyphicon glyphicon-user" style="font-size: 22px"></span><br/>
